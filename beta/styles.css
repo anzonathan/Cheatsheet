@@ -1,0 +1,190 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+
+    text-decoration: none;
+    
+    
+    
+    
+}
+
+a{
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: 1px;
+    padding: 0px;
+}
+
+body{
+    background-color: #f5fcff;
+}
+
+navbar{
+    position: fixed;
+    width: 95%;
+    background-color: black;
+    transition: 0.3s;
+    border-radius: 12px;
+    margin-top: 21px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 70px;
+    
+
+    
+
+}
+/*
+navbar:hover{
+    background-color: rgb(221, 239, 246);
+    
+}*/
+
+navbar img{
+    height: 50px;
+    width: 50px;
+    margin-top:10px;
+    margin-left: 20px;
+    float: left;
+}
+
+
+navbar ul{
+    margin-top: 23px;
+    margin-right: 5%;
+
+    float: right;
+
+}
+
+
+navbar ul li{
+    
+    color: white;
+    transition: 0.7s;
+    list-style-type: none;
+    display: inline;
+
+    margin-left: 40px;
+    padding: 12px;
+    border-radius: 7px;
+
+    
+}
+
+navbar ul li:hover{
+    
+    color: black;
+    background-color: #f5fcff;
+    
+
+
+    
+}
+
+navbar ul li a:hover{
+    
+    color: black;
+
+    
+
+
+    
+}
+
+main {
+    margin-top: 160px;
+    margin-left:3.5%; 
+    width: 95%;
+  
+}
+
+.bd {
+    margin-bottom: 40px;
+}
+
+
+.bd h2{
+    font-size: 40px;    
+
+
+}
+
+
+main ul{
+    margin-top: 20px;
+}
+
+
+main ul {
+
+    column-count: 5; 
+    column-width: auto;
+    column-gap: 20px;
+    
+}
+
+main ul li{
+    list-style-type: none;
+    
+    margin: 5px 0px;
+
+    font-size: 20px;
+    padding:8px;
+    border-radius: 7px;
+    transition: 0.7s;
+    width: fit-content;
+    color: black;
+    
+    
+}
+
+main ul li a{
+
+    color: black;
+    
+    
+}
+
+
+
+main ul li:hover{
+    background-color:rgb(249, 180, 228);
+    
+    
+}
+
+@media screen and (max-width:800px){
+    main ul {
+
+        column-count: 3; 
+        column-width: auto;
+        column-gap: 20px;
+        
+}}
+
+@media screen and (max-width:550px){
+    main ul {
+
+        column-count: 2; 
+        column-width: auto;
+        column-gap: 20px;
+
+        
+}
+
+navbar ul li{
+    
+    font-size: 15px;
+    margin: 1px;
+
+    
+}
+
+}
